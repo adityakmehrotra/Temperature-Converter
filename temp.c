@@ -9,4 +9,6 @@ int main() {
   step = 20;
 
   fahr = lower;
+
+  printf("Fahrenheit \t  Celsius\n");
 }
