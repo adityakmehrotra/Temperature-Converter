@@ -12,8 +12,9 @@ int main(int argc, char **argv) {
   if (strcmp(temp, 'f') || strcmp(temp, 'F')) {
     calc_val = (5.0 / 9.0) * (input_temp - 32.0);
     printf("%d Celsius equals %d Fahrenheit", input_temp);
-  } else if () {
-
+  } else if (strcmp(temp, 'c') || strcmp(temp, 'C')) {
+    calc_val = (5.0 / 9.0) * (input_temp - 32.0);
+    printf("%d Celsius equals %d Fahrenheit", input_temp);
   } else {
     printf("Wrong Input");
   }
