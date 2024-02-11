@@ -9,6 +9,8 @@ int main(int argc, char **argv) {
   input_temp = atoi(argv[1]);
   temp = strtol(argv[2]);
 
+  printf("%d ", input_temp);
+
   lower = 0;
   upper = 300;
   step = 20;
