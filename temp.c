@@ -2,5 +2,7 @@
 
 int main() {
   float fahr, celsius;
-  int
+  int lower, upper, step;
+
+  
 }
