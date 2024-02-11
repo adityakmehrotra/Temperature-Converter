@@ -4,12 +4,16 @@
 
 int main(int argc, char **argv) {
   int input_temp;
-  string temp;
+  char temp;
 
   input_temp = atoi(argv[1]);
   temp = strtol(argv[2]);
 
-  printf("%d ", input_temp);
+  if (strcmp(temp, 'c') || strcmp(temp, 'C')) {
+    printf("%d Celsius equals %d Fahrenheit", input_temp);
+  }
+
+  
 
   lower = 0;
   upper = 300;
