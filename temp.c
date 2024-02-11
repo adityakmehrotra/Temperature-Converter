@@ -5,4 +5,5 @@ int main() {
   int lower, upper, step;
 
   lower =0;
+  upper = 300;
 }
