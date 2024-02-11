@@ -6,6 +6,8 @@ int main(int argc, char **argv) {
   int input_temp;
   string temp;
 
+  input_temp = atoi(argv[1]);
+
   lower = 0;
   upper = 300;
   step = 20;
