@@ -9,7 +9,8 @@ int main(int argc, char **argv) {
   input_temp = atoi(argv[1]);
   temp = strtol(argv[2]);
 
-  if (strcmp(temp, 'c') || strcmp(temp, 'C')) {
+  if (strcmp(temp, 'f') || strcmp(temp, 'F')) {
+    calc_val = (5.0 / 9.0) * (input_temp - 32.0);
     printf("%d Celsius equals %d Fahrenheit", input_temp);
   }
 
