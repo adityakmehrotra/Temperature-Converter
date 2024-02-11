@@ -7,6 +7,7 @@ int main(int argc, char **argv) {
   string temp;
 
   input_temp = atoi(argv[1]);
+  temp = strtol(argv[2]);
 
   lower = 0;
   upper = 300;
