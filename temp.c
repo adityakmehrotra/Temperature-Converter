@@ -3,8 +3,8 @@
 #include <string.h>
 
 int main(int argc, char **argv) {
-  float fahr, celsius;
-  int lower, upper, step;
+  int input_temp;
+  string temp;
 
   lower = 0;
   upper = 300;
