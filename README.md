@@ -11,3 +11,7 @@ Type the temperature you want to convert followed by the units it is measured in
 - Download the required file:
   - `temp.c`
 - You can run the `temp.c` file through your CMD (Command Line)
+
+## Files
+`temp.c`:
+- C file that converts between celsius and fahrenheit
