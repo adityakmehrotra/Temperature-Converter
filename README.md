@@ -9,3 +9,5 @@ Type the temperature you want to convert followed by the units it is measured in
 
 ## Run the Program
 - Download the required file:
+  - `temp.c`
+- You can run the `temp.c` file through your CMD (Command Line)
