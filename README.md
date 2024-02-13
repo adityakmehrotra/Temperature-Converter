@@ -8,3 +8,4 @@ Type the temperature you want to convert followed by the units it is measured in
   - Input: 0 c
 
 ## Run the Program
+- Download the required file:
